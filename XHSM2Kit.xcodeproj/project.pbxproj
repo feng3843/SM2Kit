@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D951856126141ED300B63C53 /* XHECPointFp.h in Headers */ = {isa = PBXBuildFile; fileRef = D951855F26141ED300B63C53 /* XHECPointFp.h */; };
+		D951856226141ED300B63C53 /* XHECPointFp.m in Sources */ = {isa = PBXBuildFile; fileRef = D951856026141ED300B63C53 /* XHECPointFp.m */; };
+		D951856526141EF500B63C53 /* XHECFieldElementFp.h in Headers */ = {isa = PBXBuildFile; fileRef = D951856326141EF500B63C53 /* XHECFieldElementFp.h */; };
+		D951856626141EF500B63C53 /* XHECFieldElementFp.m in Sources */ = {isa = PBXBuildFile; fileRef = D951856426141EF500B63C53 /* XHECFieldElementFp.m */; };
+		D951856A26141F4B00B63C53 /* XHBigInt.h in Headers */ = {isa = PBXBuildFile; fileRef = D951856826141F4B00B63C53 /* XHBigInt.h */; };
+		D951856B26141F4B00B63C53 /* XHBigInt.mm in Sources */ = {isa = PBXBuildFile; fileRef = D951856926141F4B00B63C53 /* XHBigInt.mm */; };
+		D951856E26141FAD00B63C53 /* XHCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D951856C26141FAD00B63C53 /* XHCalculator.h */; };
+		D951856F26141FAD00B63C53 /* XHCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D951856D26141FAD00B63C53 /* XHCalculator.m */; };
+		D95185702614223200B63C53 /* XHSM2Cipher+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEBA26141E0A005D95FA /* XHSM2Cipher+Private.h */; };
+		D95185732614224B00B63C53 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D95185722614224B00B63C53 /* libc++.tbd */; };
+		D9B2CEAF2614182D005D95FA /* XHSMxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEAD2614182D005D95FA /* XHSMxHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B2CEB02614182D005D95FA /* XHSMxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CEAE2614182D005D95FA /* XHSMxHelper.m */; };
+		D9B2CEB326141D8C005D95FA /* XHSMxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEB126141D8B005D95FA /* XHSMxUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B2CEB426141D8C005D95FA /* XHSMxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CEB226141D8C005D95FA /* XHSMxUtils.m */; };
+		D9B2CEB826141DC6005D95FA /* XHSM2Cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEB626141DC6005D95FA /* XHSM2Cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B2CEB926141DC6005D95FA /* XHSM2Cipher.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CEB726141DC6005D95FA /* XHSM2Cipher.m */; };
+		D9B2CEBF26141E4D005D95FA /* XHSM3Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEBD26141E4D005D95FA /* XHSM3Digest.h */; };
+		D9B2CEC026141E4D005D95FA /* XHSM3Digest.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CEBE26141E4D005D95FA /* XHSM3Digest.mm */; };
+		D9B2CEC326141E9E005D95FA /* XHECCurveFp.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B2CEC126141E9E005D95FA /* XHECCurveFp.h */; };
+		D9B2CEC426141E9E005D95FA /* XHECCurveFp.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CEC226141E9E005D95FA /* XHECCurveFp.m */; };
 		D9E60ED8261414FD00084D98 /* XHSM2Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E60ECE261414FD00084D98 /* XHSM2Kit.framework */; };
 		D9E60EDD261414FD00084D98 /* XHSM2KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E60EDC261414FD00084D98 /* XHSM2KitTests.m */; };
 		D9E60EDF261414FD00084D98 /* XHSM2Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E60ED1261414FD00084D98 /* XHSM2Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D951855F26141ED300B63C53 /* XHECPointFp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHECPointFp.h; sourceTree = "<group>"; };
+		D951856026141ED300B63C53 /* XHECPointFp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHECPointFp.m; sourceTree = "<group>"; };
+		D951856326141EF500B63C53 /* XHECFieldElementFp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHECFieldElementFp.h; sourceTree = "<group>"; };
+		D951856426141EF500B63C53 /* XHECFieldElementFp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHECFieldElementFp.m; sourceTree = "<group>"; };
+		D951856826141F4B00B63C53 /* XHBigInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBigInt.h; sourceTree = "<group>"; };
+		D951856926141F4B00B63C53 /* XHBigInt.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = XHBigInt.mm; sourceTree = "<group>"; };
+		D951856C26141FAD00B63C53 /* XHCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHCalculator.h; sourceTree = "<group>"; };
+		D951856D26141FAD00B63C53 /* XHCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHCalculator.m; sourceTree = "<group>"; };
+		D95185722614224B00B63C53 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		D9B2CEAD2614182D005D95FA /* XHSMxHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSMxHelper.h; sourceTree = "<group>"; };
+		D9B2CEAE2614182D005D95FA /* XHSMxHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSMxHelper.m; sourceTree = "<group>"; };
+		D9B2CEB126141D8B005D95FA /* XHSMxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSMxUtils.h; sourceTree = "<group>"; };
+		D9B2CEB226141D8C005D95FA /* XHSMxUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSMxUtils.m; sourceTree = "<group>"; };
+		D9B2CEB626141DC6005D95FA /* XHSM2Cipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSM2Cipher.h; sourceTree = "<group>"; };
+		D9B2CEB726141DC6005D95FA /* XHSM2Cipher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHSM2Cipher.m; sourceTree = "<group>"; };
+		D9B2CEBA26141E0A005D95FA /* XHSM2Cipher+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHSM2Cipher+Private.h"; sourceTree = "<group>"; };
+		D9B2CEBD26141E4D005D95FA /* XHSM3Digest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSM3Digest.h; sourceTree = "<group>"; };
+		D9B2CEBE26141E4D005D95FA /* XHSM3Digest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = XHSM3Digest.mm; sourceTree = "<group>"; };
+		D9B2CEC126141E9E005D95FA /* XHECCurveFp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHECCurveFp.h; sourceTree = "<group>"; };
+		D9B2CEC226141E9E005D95FA /* XHECCurveFp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHECCurveFp.m; sourceTree = "<group>"; };
 		D9E60ECE261414FD00084D98 /* XHSM2Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHSM2Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E60ED1261414FD00084D98 /* XHSM2Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHSM2Kit.h; sourceTree = "<group>"; };
 		D9E60ED2261414FD00084D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95185732614224B00B63C53 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +91,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D951856726141F1700B63C53 /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				D951856826141F4B00B63C53 /* XHBigInt.h */,
+				D951856926141F4B00B63C53 /* XHBigInt.mm */,
+				D951856C26141FAD00B63C53 /* XHCalculator.h */,
+				D951856D26141FAD00B63C53 /* XHCalculator.m */,
+			);
+			path = BigInt;
+			sourceTree = "<group>";
+		};
+		D95185712614224B00B63C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D95185722614224B00B63C53 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B2CEB526141DB0005D95FA /* SM2 */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CEB626141DC6005D95FA /* XHSM2Cipher.h */,
+				D9B2CEB726141DC6005D95FA /* XHSM2Cipher.m */,
+				D9B2CEBA26141E0A005D95FA /* XHSM2Cipher+Private.h */,
+			);
+			path = SM2;
+			sourceTree = "<group>";
+		};
+		D9B2CEBB26141E1C005D95FA /* SM3 */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CEBD26141E4D005D95FA /* XHSM3Digest.h */,
+				D9B2CEBE26141E4D005D95FA /* XHSM3Digest.mm */,
+			);
+			path = SM3;
+			sourceTree = "<group>";
+		};
+		D9B2CEBC26141E2B005D95FA /* EC_Fp */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CEC126141E9E005D95FA /* XHECCurveFp.h */,
+				D9B2CEC226141E9E005D95FA /* XHECCurveFp.m */,
+				D951855F26141ED300B63C53 /* XHECPointFp.h */,
+				D951856026141ED300B63C53 /* XHECPointFp.m */,
+				D951856326141EF500B63C53 /* XHECFieldElementFp.h */,
+				D951856426141EF500B63C53 /* XHECFieldElementFp.m */,
+			);
+			path = EC_Fp;
+			sourceTree = "<group>";
+		};
 		D9E60EC4261414FD00084D98 = {
 			isa = PBXGroup;
 			children = (
 				D9E60ED0261414FD00084D98 /* XHSM2Kit */,
 				D9E60EDB261414FD00084D98 /* XHSM2KitTests */,
 				D9E60ECF261414FD00084D98 /* Products */,
+				D95185712614224B00B63C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +164,16 @@
 		D9E60ED0261414FD00084D98 /* XHSM2Kit */ = {
 			isa = PBXGroup;
 			children = (
-				D9E60ED1261414FD00084D98 /* XHSM2Kit.h */,
 				D9E60ED2261414FD00084D98 /* Info.plist */,
+				D9E60ED1261414FD00084D98 /* XHSM2Kit.h */,
+				D9B2CEAD2614182D005D95FA /* XHSMxHelper.h */,
+				D9B2CEAE2614182D005D95FA /* XHSMxHelper.m */,
+				D9B2CEB126141D8B005D95FA /* XHSMxUtils.h */,
+				D9B2CEB226141D8C005D95FA /* XHSMxUtils.m */,
+				D9B2CEB526141DB0005D95FA /* SM2 */,
+				D9B2CEBB26141E1C005D95FA /* SM3 */,
+				D9B2CEBC26141E2B005D95FA /* EC_Fp */,
+				D951856726141F1700B63C53 /* BigInt */,
 			);
 			path = XHSM2Kit;
 			sourceTree = "<group>";
@@ -93,7 +194,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B2CEB826141DC6005D95FA /* XHSM2Cipher.h in Headers */,
+				D9B2CEC326141E9E005D95FA /* XHECCurveFp.h in Headers */,
+				D9B2CEB326141D8C005D95FA /* XHSMxUtils.h in Headers */,
+				D9B2CEAF2614182D005D95FA /* XHSMxHelper.h in Headers */,
+				D951856A26141F4B00B63C53 /* XHBigInt.h in Headers */,
+				D9B2CEBF26141E4D005D95FA /* XHSM3Digest.h in Headers */,
 				D9E60EDF261414FD00084D98 /* XHSM2Kit.h in Headers */,
+				D951856126141ED300B63C53 /* XHECPointFp.h in Headers */,
+				D951856E26141FAD00B63C53 /* XHCalculator.h in Headers */,
+				D95185702614223200B63C53 /* XHSM2Cipher+Private.h in Headers */,
+				D951856526141EF500B63C53 /* XHECFieldElementFp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D951856F26141FAD00B63C53 /* XHCalculator.m in Sources */,
+				D9B2CEC426141E9E005D95FA /* XHECCurveFp.m in Sources */,
+				D951856626141EF500B63C53 /* XHECFieldElementFp.m in Sources */,
+				D951856B26141F4B00B63C53 /* XHBigInt.mm in Sources */,
+				D9B2CEB426141D8C005D95FA /* XHSMxUtils.m in Sources */,
+				D9B2CEB926141DC6005D95FA /* XHSM2Cipher.m in Sources */,
+				D9B2CEB02614182D005D95FA /* XHSMxHelper.m in Sources */,
+				D951856226141ED300B63C53 /* XHECPointFp.m in Sources */,
+				D9B2CEC026141E4D005D95FA /* XHSM3Digest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -322,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -335,18 +455,21 @@
 		D9E60EE3261414FD00084D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XHSM2Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxh.XHSM2Kit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -357,18 +480,21 @@
 		D9E60EE4261414FD00084D98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = XHSM2Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxh.XHSM2Kit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

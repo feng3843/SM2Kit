@@ -8,12 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for XHSM2Kit.
-FOUNDATION_EXPORT double XHSM2KitVersionNumber;
-
-//! Project version string for XHSM2Kit.
-FOUNDATION_EXPORT const unsigned char XHSM2KitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <XHSM2Kit/PublicHeader.h>
-
-
+#import <XHSM2Kit/XHSMxHelper.h>
+#import <XHSM2Kit/XHSM2Cipher.h>
+#import <XHSM2Kit/XHSMxUtils.h>
